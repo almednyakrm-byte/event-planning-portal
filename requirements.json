@@ -1,0 +1,47 @@
+{
+  "project_name": "Event Planning Portal",
+  "project_type": "event_management",
+  "modules": [
+    "Events",
+    "Venues",
+    "Users",
+    "Bookings"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_events",
+    "create_event",
+    "view_venue",
+    "book_venue"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login",
+      "register",
+      "list_events"
+    ],
+    "user": [
+      "index",
+      "login",
+      "register",
+      "list_events",
+      "create_event",
+      "view_venue",
+      "book_venue"
+    ],
+    "admin": [
+      "index",
+      "login",
+      "register",
+      "list_events",
+      "create_event",
+      "view_venue",
+      "book_venue",
+      "manage_users",
+      "manage_venues"
+    ]
+  }
+}
